@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Posts{% endblock title %}
+
+{% block content %}
+
+<h1>Create Posts</h1>
+{% for post in post_list %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Create Post</button>
+</form>
+{% endblock content %}

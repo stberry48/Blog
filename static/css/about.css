@@ -1,0 +1,10 @@
+/* static/styles/about.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
